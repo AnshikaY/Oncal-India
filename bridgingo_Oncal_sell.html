@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Sell with us  </title>
+    <link rel="stylesheet" type="text/css" href="bridgingo_Oncal.css">
+    <script src="bridgingo_Oncal_sell.js"></script>
+  </head>
+  <body>
+
+    <div class ="top_navbar">
+      <a href="bridgingo_Oncal_home.html">Home</a>
+      <a href="bridgingo_Oncal_about.html">About</a>
+      <a class="active" href="bridgingo_Oncal_sell.html">Sell</a>
+      <a href="bridgingo_Oncal_buy.html">Buy</a>
+      <a href="bridgingo_Oncal_faq.html">FAQs</a>
+      <a href="bridgingo_Oncal_feedback.html">Feedback</a>
+      <a href="bridgingo_Oncal_contact.html">Contact Us</a>
+    </div>
+
+    <div class="watermarked">
+      <img src="https://images.unsplash.com/photo-1537220093995-264b44ec6705?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=646&q=80" alt="Photo">
+    </div> <br><br>
+
+    <h1 align="center"> Vendor Registration Form </h1> <br>
+
+    <div class="form">
+      <form align="center" onsubmit=don_info()>
+
+        <br><br>
+        <label for="n"><b>Full Name:</b></label> <input type="text" id="n" name="fname" placeholder="First Name" required> &nbsp; <input type="text" id="n" name="lname" placeholder="Last Name" required>
+          <br><br>
+          <label for="m"><b>Email:</b></label> <input type="email" id="m" name="mail" placeholder="@xyz.com" required>
+          <br><br>
+          <label for="cn"><b>Contact Number:</b></label> <input type="number" id="cn" name="code" placeholder="Area Code" required> - <input type="number" name="number" placeholder="Phone Number" required>
+          <br><br>
+          <label for="pa"><b> Permanent Address: </b></label>
+          <input type="text" id="pa" name="address" placeholder="Street Address" required> <br><br>
+          <input type="text" id="pa" name="address" placeholder="Street Address Line 2"> <br><br>
+          <input type="text" id="pa" name="address" placeholder="City/Town" required> &nbsp;
+          <input type="text" id="pa" name="address" placeholder="State" required> <br><br>
+          <input type="number" id="pa" name="address" placeholder="Postal/Zip Code">
+          <br><br>
+          <label for="da"><b> Product/Service: </b></label> <input type="text" id="da" name="prod" placeholder="product/service" required>
+          <br><br>
+          <label for="an"><b> Description of Product/Service: </b></label> <textarea rows="8" cols="55" placeholder="Specifications of product/service "required> </textarea> <br><br>
+          <label for="da"><b> Price: </b></label> <input type="number" id="da" name="amount" placeholder="in INR" required> <br><br>
+          <label for="mop"><b>Preferred Mode of Payment: </b></label>
+          <select id="mop" name="mop" required>
+            <option value=""> </option>
+            <option value="Credit Card"> Credit Card </option>
+            <option value="Online transfer"> Online Banking </option>
+            <option value="PayPal"> PayPal </option>
+          </select>
+          <br><br>
+
+          <label for="mp"><b>Are you already registered with us? If yes select your membership period: </b></label>
+          <select id="mp" name="mp">
+            <option value=""> </option>
+            <option value="Six Months"> Six Months </option>
+            <option value="One Year"> One Year </option>
+            <option value="Two Years"> Two Years </option>
+          </select> <br><br>
+            <label for="dy"><b> Do you identify as a small business owner, women entrepreneur, self-help group, domestic manufacturer, local service provider or local vendor? </b></label> Yes<input type="radio" id="dy" name="same" value="yes" required> No<input type="radio" name="same" value="no"> <br><br>
+            <label for="ic"><b> I confirm that the above information provided is correct and true to my knowledge </b></label> <input type="checkbox" id="ic" required> <br><br>
+            <input class="button" type="submit" name="donate" value="LIST FOR SELLING">
+
+        </form>
+        </div>
+        <br><br>
+
+    <hr>
+    <h4 align="center"> Oncal India | PO Box 226021 | Hazratganj, Lucknow | Uttar Pradesh | India </h4>
+    <br>
+
+  </body>
+</html>
