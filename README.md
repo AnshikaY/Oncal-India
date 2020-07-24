@@ -1,26 +1,26 @@
-# Oncal-India-
+# Oncal-India
 This is a website which promotes online but local trade owing to deglobalization due to corona pandemic. It has been built as a solution to the problem statement on the theme of ‘ATMA NIRBHAR BHARAT’ provided by Bridgingo in round 2 of their National Level Hackathon - Game of Codes. I plan to develop it further through its backend.
 
-SOLUTION CONCEPT NOTE
+#SOLUTION CONCEPT NOTE
 
-INTRODUCTION
+#INTRODUCTION
 
 According to the problem statement I have designed a website as a prototype for my solution. I have named it "Oncal India" (‘on’ comes from online and ‘cal’ comes from local).
 
 One external CSS and four JavaScript files have been used for formatting and for all the prompts, alert and confirmation messages respectively. 
 
 
-TECHNICAL DETAILS
+#TECHNICAL DETAILS
 
 HTML, CSS and Jaavscript have been used in this prototype. Further in the solution I intend to use django and MySQL to attach database and add more functionality using python and c++. 
 
 
-PROJECT DESCRIPTION
+#PROJECT DESCRIPTION
  
 Seven webpages namely Home, About, Sell, Buy, FAQs, Feedback and Contact Us are connected to each other through a navigation bar given at the top. Home page describes the work and the main vision and goal of this solution. About page gives detailed description regarding the organization and its working. Sell page has a form for the people who want to list items to sell. Buy page has a form for the people who want to search product/service to buy. FAQs page addresses all the frequently asked questions. Feedback has a form for the people who want to convey a suggestion or feedback. Contact Us page specifies all the ways in which a person can contact the organization. 
 
 
-UNIQUE FEATURES
+#UNIQUE FEATURES
 
 Important fields in the forms have been marked as required and it has been made sure that only numbers can be entered in fields like phone number, zip code etc. 
 
@@ -30,7 +30,7 @@ Also about, faq, feedback and contact us panels have been created to make the so
 
 Also address of both parties has been recorded so that trading is among the immediate community and hence stays local.
 
-FUTURE SCOPE
+#FUTURE SCOPE
 
 Apart from the functionalities already developed, additional feature that can be further incorporated is use of machine learning to sort out matching results on basis of location, in place of manual matching of addresses. 
 
