@@ -12,7 +12,7 @@ One external CSS and four JavaScript files have been used for formatting and for
 
 #TECHNICAL DETAILS
 
-HTML, CSS and Jaavscript have been used in this prototype. Further in the solution I intend to use django and MySQL to attach database and add more functionality using python and c++. 
+HTML, CSS and Javascript have been used in this prototype. Further in the solution I intend to use django and MySQL to attach database and add more functionality using python and c++. 
 
 
 #PROJECT DESCRIPTION
